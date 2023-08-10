@@ -28,7 +28,7 @@ on:
         type: boolean
       environment:
         description: 'Environment to run tests against'
-        type: environment
+        type: string
         required: true
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
